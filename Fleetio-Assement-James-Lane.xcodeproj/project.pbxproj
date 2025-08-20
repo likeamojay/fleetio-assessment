@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		60694A082E511BF3003B1BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 606949F22E511BF1003B1BEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 606949F92E511BF1003B1BEB;
+			remoteInfo = "Fleetio-Assement-James-Lane";
+		};
+		60694A122E511BF3003B1BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 606949F22E511BF1003B1BEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 606949F92E511BF1003B1BEB;
+			remoteInfo = "Fleetio-Assement-James-Lane";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		606949FA2E511BF2003B1BEB /* Fleetio-Assement-James-Lane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fleetio-Assement-James-Lane.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60694A072E511BF3003B1BEB /* Fleetio-Assement-James-LaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fleetio-Assement-James-LaneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60694A112E511BF3003B1BEB /* Fleetio-Assement-James-LaneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fleetio-Assement-James-LaneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		606949FC2E511BF2003B1BEB /* Fleetio-Assement-James-Lane */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fleetio-Assement-James-Lane";
+			sourceTree = "<group>";
+		};
+		60694A0A2E511BF3003B1BEB /* Fleetio-Assement-James-LaneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fleetio-Assement-James-LaneTests";
+			sourceTree = "<group>";
+		};
+		60694A142E511BF3003B1BEB /* Fleetio-Assement-James-LaneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fleetio-Assement-James-LaneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		606949F72E511BF1003B1BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60694A042E511BF3003B1BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60694A0E2E511BF3003B1BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		606949F12E511BF1003B1BEB = {
+			isa = PBXGroup;
+			children = (
+				606949FC2E511BF2003B1BEB /* Fleetio-Assement-James-Lane */,
+				60694A0A2E511BF3003B1BEB /* Fleetio-Assement-James-LaneTests */,
+				60694A142E511BF3003B1BEB /* Fleetio-Assement-James-LaneUITests */,
+				606949FB2E511BF2003B1BEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		606949FB2E511BF2003B1BEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				606949FA2E511BF2003B1BEB /* Fleetio-Assement-James-Lane.app */,
+				60694A072E511BF3003B1BEB /* Fleetio-Assement-James-LaneTests.xctest */,
+				60694A112E511BF3003B1BEB /* Fleetio-Assement-James-LaneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		606949F92E511BF1003B1BEB /* Fleetio-Assement-James-Lane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60694A1B2E511BF3003B1BEB /* Build configuration list for PBXNativeTarget "Fleetio-Assement-James-Lane" */;
+			buildPhases = (
+				606949F62E511BF1003B1BEB /* Sources */,
+				606949F72E511BF1003B1BEB /* Frameworks */,
+				606949F82E511BF1003B1BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				606949FC2E511BF2003B1BEB /* Fleetio-Assement-James-Lane */,
+			);
+			name = "Fleetio-Assement-James-Lane";
+			packageProductDependencies = (
+			);
+			productName = "Fleetio-Assement-James-Lane";
+			productReference = 606949FA2E511BF2003B1BEB /* Fleetio-Assement-James-Lane.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60694A062E511BF3003B1BEB /* Fleetio-Assement-James-LaneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60694A1E2E511BF3003B1BEB /* Build configuration list for PBXNativeTarget "Fleetio-Assement-James-LaneTests" */;
+			buildPhases = (
+				60694A032E511BF3003B1BEB /* Sources */,
+				60694A042E511BF3003B1BEB /* Frameworks */,
+				60694A052E511BF3003B1BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60694A092E511BF3003B1BEB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				60694A0A2E511BF3003B1BEB /* Fleetio-Assement-James-LaneTests */,
+			);
+			name = "Fleetio-Assement-James-LaneTests";
+			packageProductDependencies = (
+			);
+			productName = "Fleetio-Assement-James-LaneTests";
+			productReference = 60694A072E511BF3003B1BEB /* Fleetio-Assement-James-LaneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60694A102E511BF3003B1BEB /* Fleetio-Assement-James-LaneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60694A212E511BF3003B1BEB /* Build configuration list for PBXNativeTarget "Fleetio-Assement-James-LaneUITests" */;
+			buildPhases = (
+				60694A0D2E511BF3003B1BEB /* Sources */,
+				60694A0E2E511BF3003B1BEB /* Frameworks */,
+				60694A0F2E511BF3003B1BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60694A132E511BF3003B1BEB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				60694A142E511BF3003B1BEB /* Fleetio-Assement-James-LaneUITests */,
+			);
+			name = "Fleetio-Assement-James-LaneUITests";
+			packageProductDependencies = (
+			);
+			productName = "Fleetio-Assement-James-LaneUITests";
+			productReference = 60694A112E511BF3003B1BEB /* Fleetio-Assement-James-LaneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		606949F22E511BF1003B1BEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					606949F92E511BF1003B1BEB = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					60694A062E511BF3003B1BEB = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 606949F92E511BF1003B1BEB;
+					};
+					60694A102E511BF3003B1BEB = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 606949F92E511BF1003B1BEB;
+					};
+				};
+			};
+			buildConfigurationList = 606949F52E511BF1003B1BEB /* Build configuration list for PBXProject "Fleetio-Assement-James-Lane" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 606949F12E511BF1003B1BEB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 606949FB2E511BF2003B1BEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				606949F92E511BF1003B1BEB /* Fleetio-Assement-James-Lane */,
+				60694A062E511BF3003B1BEB /* Fleetio-Assement-James-LaneTests */,
+				60694A102E511BF3003B1BEB /* Fleetio-Assement-James-LaneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		606949F82E511BF1003B1BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60694A052E511BF3003B1BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60694A0F2E511BF3003B1BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		606949F62E511BF1003B1BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60694A032E511BF3003B1BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60694A0D2E511BF3003B1BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60694A092E511BF3003B1BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 606949F92E511BF1003B1BEB /* Fleetio-Assement-James-Lane */;
+			targetProxy = 60694A082E511BF3003B1BEB /* PBXContainerItemProxy */;
+		};
+		60694A132E511BF3003B1BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 606949F92E511BF1003B1BEB /* Fleetio-Assement-James-Lane */;
+			targetProxy = 60694A122E511BF3003B1BEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		60694A192E511BF3003B1BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60694A1A2E511BF3003B1BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60694A1C2E511BF3003B1BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jameslane.Fleetio-Assement-James-Lane";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60694A1D2E511BF3003B1BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jameslane.Fleetio-Assement-James-Lane";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60694A1F2E511BF3003B1BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jameslane.Fleetio-Assement-James-LaneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fleetio-Assement-James-Lane.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fleetio-Assement-James-Lane";
+			};
+			name = Debug;
+		};
+		60694A202E511BF3003B1BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jameslane.Fleetio-Assement-James-LaneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fleetio-Assement-James-Lane.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fleetio-Assement-James-Lane";
+			};
+			name = Release;
+		};
+		60694A222E511BF3003B1BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jameslane.Fleetio-Assement-James-LaneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fleetio-Assement-James-Lane";
+			};
+			name = Debug;
+		};
+		60694A232E511BF3003B1BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jameslane.Fleetio-Assement-James-LaneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fleetio-Assement-James-Lane";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		606949F52E511BF1003B1BEB /* Build configuration list for PBXProject "Fleetio-Assement-James-Lane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60694A192E511BF3003B1BEB /* Debug */,
+				60694A1A2E511BF3003B1BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60694A1B2E511BF3003B1BEB /* Build configuration list for PBXNativeTarget "Fleetio-Assement-James-Lane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60694A1C2E511BF3003B1BEB /* Debug */,
+				60694A1D2E511BF3003B1BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60694A1E2E511BF3003B1BEB /* Build configuration list for PBXNativeTarget "Fleetio-Assement-James-LaneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60694A1F2E511BF3003B1BEB /* Debug */,
+				60694A202E511BF3003B1BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60694A212E511BF3003B1BEB /* Build configuration list for PBXNativeTarget "Fleetio-Assement-James-LaneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60694A222E511BF3003B1BEB /* Debug */,
+				60694A232E511BF3003B1BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 606949F22E511BF1003B1BEB /* Project object */;
+}
