@@ -25,7 +25,18 @@ class CommentsListViewModel: ObservableObject {
         nextCursor != nil
     }
 
-    func fetchComments() async {
+    func fetchAllComments() async {
+        await fetchComments()
+
+        if isFetchingNextPage {
+            return
+        }
+        while hasNextPage {
+            await fetchComments()
+        }
+    }
+
+    private func fetchComments() async {
         guard !isFetchingNextPage else { return }
         if nextCursor == nil && startCursor != nil {
             return

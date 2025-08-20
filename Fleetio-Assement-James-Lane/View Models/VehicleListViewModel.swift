@@ -41,7 +41,6 @@ class VehicleListViewModel: ObservableObject {
 
     func fetchAllVehicles() async {
         if isFetchingNextPage {
-            print("ignore becuase we're busy")
             return
         }
         while hasNextPage {

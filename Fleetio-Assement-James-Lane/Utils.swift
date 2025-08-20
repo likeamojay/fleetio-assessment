@@ -12,14 +12,14 @@ class Utils {
     // MARK: - Public APIs
 
     static var apiKey: String {
-        guard let apiKey = credentials["apiKey"] as? String else {
+        guard let apiKey = credentials["apiKey"] as? String, !apiKey.isEmpty else {
             fatalError("Error loading API Key")
         }
         return apiKey
     }
 
     static var accountToken: String {
-        guard let accountToken = credentials["accountToken"] as? String else {
+        guard let accountToken = credentials["accountToken"] as? String, !accountToken.isEmpty else {
             fatalError("Error loading account token")
         }
         return accountToken

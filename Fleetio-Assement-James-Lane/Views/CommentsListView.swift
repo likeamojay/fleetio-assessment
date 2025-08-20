@@ -23,26 +23,15 @@ struct CommentsListView: View {
                     .multilineTextAlignment(.center)
                     .padding()
             } else {
-                VStack {
-                    List {
-                        ForEach(viewModel.comments) { comment in
-                            CommentRow(entry: comment)
-                                .onAppear {
-                                    if viewModel.shouldLoadNextPage(currentItem: comment) {
-                                        Task {
-                                            await viewModel.fetchComments()
-                                        }
-                                    }
-                                }
-                        }
-                    }
+                List(viewModel.comments) { comment in
+                    CommentRow(entry: comment)
                 }
             }
         }
         .onAppear {
             if viewModel.comments.isEmpty {
                 Task {
-                    await viewModel.fetchComments()
+                    await viewModel.fetchAllComments()
                 }
             }
         }

@@ -79,8 +79,6 @@ struct VehicleLocationView: View {
                 return
             }
 
-            Utils.printJSON(data)
-
             let decoder = JSONDecoder()
             decoder.keyDecodingStrategy = .convertFromSnakeCase
 
