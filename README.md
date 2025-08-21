@@ -20,6 +20,7 @@ Copy+Paste your Fleetio API key and Account Token values into the `Credentials.p
 - [x] Implements **MVVM Architecture** for list views for separation of concerns, structured concurrency, and API response handling encapsulation
 - [x] Uses SwiftUI child/component views for maintainability and avoiding repetitive UI logic
 - [X] Vehicls list Uses a lazy-loading approach where pages are feteched either by user scrolling down to the bottom OR fetches all pages by user initiating a search in the search box
+- [X] Use Combine first() subscriber to make fetching of ALL pages kick off on search bar's first keystroke, but then don't repeatedly hit API for subsequent keystrokes.
 
 ## Shortcuts taken for time's sake since instructions said not to spend more than 5 hours on this
 
