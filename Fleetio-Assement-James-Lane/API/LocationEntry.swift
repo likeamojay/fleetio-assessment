@@ -8,7 +8,6 @@
 import Foundation
 
 struct LocationEntry: Decodable, Equatable {
-
     struct geolocation: Decodable, Equatable {
         let latitude: Double
         let longitude: Double

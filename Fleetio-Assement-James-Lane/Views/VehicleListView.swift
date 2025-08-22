@@ -40,10 +40,8 @@ struct VehicleListView: View {
                         }
                     }
                     if !viewModel.isInitialLoading && viewModel.isFetchingNextPage {
-                            Text("Loading More...")
-                            .font(.title2)
-                            .foregroundStyle(.gray)
-                            Spacer()
+                        ProgressView().progressViewStyle(.circular)
+                        Spacer()
                     }
                 }
                 .searchable(text: $viewModel.searchText)

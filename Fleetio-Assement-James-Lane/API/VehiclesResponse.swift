@@ -8,11 +8,9 @@
 import Foundation
 
 struct VehiclesResponse: Decodable {
-
     let startCursor: String
     let nextCursor: String?
     let perPage: Int
     let filteredBy: [String]
     let records: [Vehicle]
-
 }

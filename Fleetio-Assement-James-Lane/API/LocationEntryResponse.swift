@@ -8,7 +8,6 @@
 import Foundation
 
 struct LocationEntryResponse: Decodable {
-
     let startCursor: String?
     let nextCursor: String?
     let perPage: Int
